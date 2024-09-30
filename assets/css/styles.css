@@ -1,0 +1,140 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Heading */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Form Label */
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Input and Select Styling */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #28a745;
+    background-color: #fff;
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"] {
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover {
+    border-color: #218838;
+}
+
+/* Payment Section */
+#payment-section {
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+#submit-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#submit-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+#submit-button:active {
+    transform: translateY(0);
+    background-color: #1e7e34;
+}
+
+/* Error Messages */
+#card-errors {
+    color: #d9534f;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    input, select, button {
+        font-size: 16px;
+    }
+}
