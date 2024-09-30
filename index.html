@@ -26,10 +26,11 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- script call for form-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-zz
+
 </head>
 
 <body>
@@ -59,23 +60,33 @@ zz
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-
     <div class="container">
       <div class="row">
         <div class="col-lg-7 d-flex flex-column justify-content-lg-center pt-9 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>Are You an Innovator ?</h1>
+          <h1><span class="typing-text"></span></h1>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="https://forms.gle/ABYQBSxa3ewr8iHTA" class="btn-get-started scrollto">Join Us Now</a>
           </div>
-          
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-up" data-aos-delay="200">
           <img src="assets/img/team-goals/pana.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
-
-  </section><!-- End Hero -->
+  </section>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var options = {
+            strings: ["Are You an Innovator?", "Join Our Team!", "Let's Make a Difference!"], // Add your desired text here
+            typeSpeed: 100,    // Speed of typing
+            backSpeed: 50,     // Speed of backspacing
+            loop: true          // Loop the animation
+        };
+    
+        var typed = new Typed(".typing-text", options);
+    });
+    </script>
+    <!-- End Hero -->
 
   <main id="main">
     <!-- ======= About Section ======= -->
