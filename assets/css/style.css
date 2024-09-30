@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid #eceefe;
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 1px 0;
 }
 #header .logo {
   font-size: 30px;
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2d405f;
 }
 #header .logo img {
-  max-height: 50px;
+  max-height: 150px;
 }
 
 /*--------------------------------------------------------------
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
+  top: 55px;  
   right: 15px;
   bottom: 15px;
   left: 15px;
