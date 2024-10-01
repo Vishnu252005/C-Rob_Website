@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff; /* White link */
 }
 #header .logo img {
-  max-height: 80px;
+  max-height: 150px;
   
 }
 
@@ -510,9 +510,9 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: #2d405f; /* Darker background for the about section */
+  background: #ffffff; /* Darker background for the about section */
   background-size: cover;
-  background: url("../img/about-bg.png") top center no-repeat; /* Adjust path as needed */
+  /* background : url("../img/about-bg.png") top center no-repeat;  */
   padding: 60px 0;
   position: relative;
   color: #fff; /* White text */
@@ -525,20 +525,20 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #fff; /* White for about section title */
+  color: #000; /* White for about section title */
   margin-bottom: 30px;
 }
 
 .about .content p {
   margin-bottom: 30px;
-  color: #ffffff; /* White for about section paragraph */
+  color: #000; /* White for about section paragraph */
 }
 
 .about .content .about-btn {
   display: inline-block;
   background: rgba(255, 255, 255, 0.1); /* Light background with transparency */
   padding: 6px 30px 8px 30px;
-  color: #ffffff; /* White for button text */
+  color: #000; /* White for button text */
   border-radius: 50px;
   transition: 0.3s;
 }
@@ -565,12 +565,12 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #ffffff; /* White for icon box titles */
+  color: #000; /* White for icon box titles */
 }
 
 .about .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #b0bec5; /* Light gray for icon box text */
+  color: #000; /* Light gray for icon box text */
 }
 
 @media (max-width: 1200px) {
@@ -1587,7 +1587,7 @@ Button
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #000; /* Pure black for icons */
+  color: #fff; /* Pure black for icons */
   padding: 8px;
 }
 .contact .info-box h3 {
